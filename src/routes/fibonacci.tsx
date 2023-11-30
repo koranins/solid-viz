@@ -4,9 +4,7 @@ const Coin = () => (
     <main>
         <Title>Fibonacci</Title>
         <h1>Fibonacci!</h1>
-        <p>
-            More stuff here
-        </p>
+        <p>Write a function that returns n-th Fibonacci number</p>
     </main>
 )
 
