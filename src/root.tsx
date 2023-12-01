@@ -10,6 +10,7 @@ import {
   Meta,
   Routes,
   Scripts,
+  Style,
   Title,
 } from "solid-start";
 import "./root.css";
@@ -21,6 +22,17 @@ export default function Root() {
         <Title>SolidStart - Bare</Title>
         <Meta charset="utf-8" />
         <Meta name="viewport" content="width=device-width, initial-scale=1" />
+        <Style>
+          {`circle
+            {
+                fill: blue;
+            }
+            path
+            {
+                fill: none;
+                stroke: red;
+            }`}
+        </Style>
       </Head>
       <Body>
         <Suspense>
